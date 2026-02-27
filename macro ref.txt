@@ -1,0 +1,23 @@
+ctrl + p  telescope
+ctrl + o  telescope grep
+shift + i  info about a hovered over function
+ctrl + s   save
+ctrl + d  (in i mode) delete a line
+ctrl + z  undo
+ctrl + y  redo
+shift + c + a  code actionss
+shift + f  format/style code
+ctrl + c  choose a snippet
+ctrl + a  abort snippet mode
+
+
+i  insert mode
+x  delete
+dd  delete a full line
+v  visual mode, and in that:
+   y  yank/copy
+   p  paste
+
+:wqa  quit nvim
+:Neotree toggle  neotree toggle on and off
+:Lazy  lazy
