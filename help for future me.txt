@@ -1,0 +1,7 @@
+hello and welcome. common issues:
+
+1. I have a new language to add! how do i have everything work?
+
+find it in mason
+add it in completions.lua
+
