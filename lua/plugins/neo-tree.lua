@@ -10,6 +10,6 @@ return {
     lazy = false, -- neo-tree will lazily load itself
     config = function()
 --      vim.cmd "Neotree"
-    end   
+    end
   }
 }

@@ -3,6 +3,7 @@ Hello and welcome to a simple nvim setup built to work on the MiNI faculty compu
 1. SETUP
 -create the neovim config folder at '~/.config/nvim' if it does not exist yet
 -clone the contents of this repositiory inside of it.
+-somehow set up lazy. idk for now, i don't remember how i did it. i'll change this later
 -literally just run neovim. you are chill.
 
 2. TROUBLESHOOTING

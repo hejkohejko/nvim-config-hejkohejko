@@ -1,7 +1,15 @@
 hello and welcome. common issues:
 
-1. I have a new language to add! how do i have everything work?
+1. I want to write in a new language and have it work nicely
+Here you can go two ways.
 
-find it in mason
-add it in completions.lua
+   a) easy, but can break maybe, idk, never broke for me
+   -open mason with writing ':Mason' while not in insert mode
+   -in there navigate to the 'LSP' tab and install whichever language server you desire
 
+   b)takes a bit of a time, but ensures the stuff will STAY installed
+   -go to mason (as described in a) ) and look up the name of the LSP you want installed
+   -add it in your config folder at plugins/completions.lua, according to the template
+   
+2. I want to change macros
+Navigate to config/settings.lua and change them there

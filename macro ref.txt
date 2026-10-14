@@ -18,6 +18,6 @@ v  visual mode, and in that:
    y  yank/copy
    p  paste
 
-:wqa  quit nvim
+:wqa  quit nvim and save all your files
 :Neotree toggle  neotree toggle on and off
 :Lazy  lazy
