@@ -1,17 +1,19 @@
-ctrl + p  telescope
-ctrl + o  telescope grep
-shift + i  info about a hovered over function
-ctrl + s   save
-ctrl + d  (in i mode) delete a line
-ctrl + z  undo
-ctrl + y  redo
-shift + c + a  code actionss
-shift + f  format/style code
-ctrl + c  choose a snippet
-ctrl + a  abort snippet mode
+THESE ARE THE MACROS THAT ARE CURRENTLY IN PLACE, AND WHERE TO CHANGE THEM. that is if i remember even
+
+shift + i  info about a hovered over function [edit in plugins/treesitter.lua]
+ctrl + s   save [edit in config/settings.lua]
+ctrl + d  (in i mode) delete a line [edit in config/settings.lua]
+ctrl + z  undo [edit in config/settings.lua]
+ctrl + y  redo [edit in config/settings.lua]
+shift + c + a  code actions [edit in config/settings]
+shift + f  format/style code [edit in plugins/none-ls.lua]
+ctrl + c  choose a snippet [edit in plugins/completions.lua]
+ctrl + a  abort snippet mode [edit in plugins/completions.lua]
+
 
 
 i  insert mode
+esc escape to the default mode i guess
 x  delete
 dd  delete a full line
 v  visual mode, and in that:

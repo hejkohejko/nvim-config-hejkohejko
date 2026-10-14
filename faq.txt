@@ -13,3 +13,10 @@ Here you can go two ways.
    
 2. I want to change macros
 Navigate to config/settings.lua and change them there
+
+3. Upon opening Lazy tells me there is stuff to update???
+Run ':Lazy update' if you so wish.
+
+4. I want a different colorscheme!!
+-Look at plugins/gruvbox.lua. This is basically how you load a colorscheme with Lazy.
+-find a colorscheme you wish to use, and use the mentioned file as a template
