@@ -7,4 +7,4 @@ Hello and welcome to a simple nvim setup built to work on the MiNI faculty compu
 -literally just run neovim. you are chill.
 
 2. TROUBLESHOOTING
-- LAZY.NVIM FAILS TO DOWNLOAD : check the root path of the download in the Makefile of lazy
+- LAZY.NVIM FAILS TO DOWNLOAD : check the lazypath variable in lua/config/lazy.lua (it is at the very top of the file). It should be saving to something you have acess to. i set it to save in the nvim config folder, but you can change that
